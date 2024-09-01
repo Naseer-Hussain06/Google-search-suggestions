@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+  }
+}
+.google-logo {
+  width: 432px;
+  height: 140px;
+}
+@media screen and(min-width: 768px) {
+  .google-logo {
+    width: 30vh;
+    height: 20px;
+  }
+}
+
+.input-container {
+  margin-top: 70px;
+  background-color: #ffffff;
+  width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px 0 #bfbfbf;
+}
+
+@media screen and(min-width:768px) {
+  .input-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+}
+
+@media screen and(min-width:768px) {
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+  }
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+@media screen and(min-width:768px) {
+  .search-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.input-element {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 22px;
+  padding-left: 15px;
+  color: #000000;
+  font-family: 'Roboto';
+  border: none;
+  margin-left: 16px;
+  outline: none;
+}
+
+@media screen and(min-width:768px) {
+  .input-element {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+}
+
+.suggestion-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+
+@media screen and(min-width:768px) {
+  .suggestion-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
